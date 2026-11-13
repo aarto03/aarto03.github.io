@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Anthony Artola, an aspiring cyber engineer focused on cybersecurity with full-stack development capabilities. Projects, certifications and skills.">
+  <meta name="theme-color" content="#0b0b0d">
+  <!-- The text in the browser tab: -->
+  <title>Anthony Artola | Portfolio</title>
+
+  <!-- Tab icon (favicon). Files are in the main folder. -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <!-- Link preview (LinkedIn, Discord, iMessage, etc.). Edit the text freely.
+       The image must use the full web address, so keep the https://aarto03.github.io part. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Anthony Artola | Aspiring Cyber Engineer">
+  <meta property="og:description" content="Cybersecurity-focused with full-stack development capabilities. Explore my projects, certifications and skills.">
+  <meta property="og:url" content="https://aarto03.github.io/">
+  <meta property="og:image" content="https://aarto03.github.io/images/social-preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Anthony Artola, Aspiring Cyber Engineer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Anthony Artola | Aspiring Cyber Engineer">
+  <meta name="twitter:description" content="Cybersecurity-focused with full-stack development capabilities. Explore my projects, certifications and skills.">
+  <meta name="twitter:image" content="https://aarto03.github.io/images/social-preview.png">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =====================================================
+       HEADER: your name (links home) + the navigation tabs.
+       To rename a tab, change the text between the <a> tags.
+       Keep each href matching a section id further below.
+       ===================================================== -->
+  <header class="site-header">
+    <a href="#home" class="brand">Anthony<span>.</span>A</a>
+    <nav class="nav">
+      <a href="#home" data-view="home">Home</a>
+      <a href="#experience" data-view="experience">Experience</a>
+      <a href="#projects" data-view="projects">Projects</a>
+      <a href="#certifications" data-view="certifications">Certifications</a>
+      <a href="#contact" data-view="contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- =====================================================
+         HOME
+         ===================================================== -->
+    <section id="home" class="view">
+      <div class="hero">
+
+        <!-- PHOTO: the image file is images/website_pic.png. To change it,
+             replace that file or edit the src below. -->
+        <div class="hero-photo">
+          <img src="images/website_pic.png" alt="Photo of Anthony Artola">
+        </div>
+
+        <div class="hero-text">
+          <h1>
+            I'm Anthony Artola.<br>
+            An aspiring cyber engineer
+            <span class="muted">focused on security.</span>
+          </h1>
+          <p>
+            I'm cybersecurity-focused with full-stack development capabilities.
+            I enjoy understanding how systems work, finding how they break, and
+            building them so they hold up. Browse my work using the tabs above.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-ghost">Contact Me</a>
+            <!-- The PDF lives in the "resume" folder. To update it, replace that file (keep the name). -->
+            <a href="resume/Anthony_Artola_Resume.pdf" class="btn btn-ghost" download>Download Resume</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- =====================================================
+           ABOUT ME / BIO
+           Edit the paragraphs on the right freely.
+           ===================================================== -->
+      <div class="bio-section">
+        <div class="bio">
+
+          <div class="bio-side">
+            <h2 class="section-title">About Me</h2>
+          </div>
+
+          <div class="bio-text">
+            <p>
+              I am completing a Bachelor of Science in Cyber Engineering Technology
+              at A&amp;M University San Antonio (expected May 2027), and I also hold an
+              associate degree in General Science from Houston City College.
+            </p>
+            <p>
+              I chose cybersecurity because it is an ever-evolving landscape where
+              the dangers grow right alongside it. Phishing, malware, hacking and
+              countless other attacks keep changing, and I want to understand how it
+              all works so I can help build proper defenses against it. My goal is
+              to make a positive impact on this new landscape.
+            </p>
+            <p>
+              Along the way I have delved into cybersecurity through projects
+              including CTFs, Penetration Testing, Threat Intelligence using Nmap,
+              reverse engineering with Ghidra, and real-time simulation of attacks
+              and defense through VM systems and test frameworks like Metasploit.
+              My work also includes hunting stealthy, fileless malware through
+              memory forensics, designing a privacy-preserving layer for large-scale
+              data pipelines using differential privacy, and building a tool that
+              detects malicious permission escalation in Android applications. I
+              also enjoy researching artificial intelligence and how its
+              capabilities can be applied across different areas of cyberspace.
+            </p>
+            <p>
+              Most recently, I worked as a remote Cyber Security Basics intern with
+              Tomorrow's Leaders Today (TLT). In a small team, I researched threat
+              intelligence, OSINT and phishing attack vectors, wrote technical
+              reports, and collaborated with other cybersecurity groups through peer
+              review to solve the questions we were given.
+            </p>
+            <p>
+              Alongside security, I love the creativity that comes with programming.
+              With Python and JavaScript I can build websites, applications, games
+              and widgets, with full-blown interactivity and APIs for a majority of
+              common website use cases, and I can even go as far as programming
+              electrical parts to create something physical. One example is
+              Championship-Rounds, a full-stack mock betting platform for an MMA
+              fight card that I built and deployed with Node.js and MongoDB. That
+              blend is why I am drawn to Secure Software Development: a career that
+              combines security with creativity.
+            </p>
+            <p>
+              Outside of tech, you will usually find me weightlifting, playing
+              soccer, playing video games, or traveling.
+            </p>
+            <p>
+              I want to put my skills to work so that I can begin creating a safer,
+              more immersive digital environment for the world to enjoy! I look
+              forward to connecting with you.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         EXPERIENCE
+         To add an entry: copy one <article class="entry">...</article>
+         block and paste it below the last one.
+         ===================================================== -->
+    <section id="experience" class="view">
+      <h2 class="section-title">Experience</h2>
+      <p class="section-intro">
+        Hands-on experience in threat intelligence, OSINT and team-based
+        security research, alongside my studies in Cyber Engineering Technology.
+      </p>
+
+      <div class="timeline">
+
+        <article class="entry">
+          <span class="entry-date">Sep 2026 - Nov 2026</span>
+          <h3>Cyber Security Basics Intern</h3>
+          <p class="entry-org">TLT - Tomorrow's Leaders Today | Remote</p>
+          <ul class="entry-list">
+            <li>Worked remotely as part of a three-person team delivering weekly cybersecurity projects centered on threat intelligence, OSINT and phishing attack vectors.</li>
+            <li>Collaborated with other cybersecurity groups to peer-review each other's work and develop solutions to questions posed during team meetings.</li>
+            <li>Analyzed suspicious indicators with industry tools such as VirusTotal and Malware Bazaar to quickly assess potential threats.</li>
+            <li>Wrote detailed technical research reports and prepared weekly team presentations to communicate findings and key insights clearly.</li>
+          </ul>
+        </article>
+
+      </div>
+
+      <!-- EDUCATION: copy an <article class="entry"> to add more. -->
+      <h3 class="subheading">Education</h3>
+      <div class="timeline">
+
+        <article class="entry">
+          <span class="entry-date">Expected: May 2027</span>
+          <h3>Bachelor of Science in Cyber Engineering Technology</h3>
+          <p class="entry-org">Texas A&amp;M University-San Antonio | San Antonio, TX</p>
+          <p>Hands-on cybersecurity coursework and projects spanning CTFs, penetration testing, threat intelligence, reverse engineering and attack-and-defense simulations in virtual machine environments.</p>
+        </article>
+
+        <article class="entry">
+          <span class="entry-date">Graduated: May 2023</span>
+          <h3>Associate Degree in General Science</h3>
+          <p class="entry-org">Houston City College | Houston, TX</p>
+          <p>Foundational general coursework in mathematics, physics, and engineering. Essential concepts include Calculus, Engineering Basics, and Basic Circuitry in University Physics.</p>
+        </article>
+
+      </div>
+
+      <!-- =====================================================
+           SKILLS and TOOLS (both have clickable category filters)
+
+           HOW IT WORKS: each filter button's data-filter value must
+           match the data-category of the items it should show.
+           - To add an item: copy an <li> and change its text.
+           - To add a category: add a <button> with a new data-filter
+             value, then give its items the same data-category value.
+           - data-filter="all" shows everything.
+           ===================================================== -->
+
+      <h3 class="subheading">Skills</h3>
+      <div class="filter-group" data-filter-group>
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="security">Security</button>
+          <button class="filter-btn" data-filter="development">Development</button>
+        </div>
+        <ul class="skills">
+          <li data-category="security">Threat Intelligence</li>
+          <li data-category="security">OSINT</li>
+          <li data-category="security">Malware Analysis</li>
+          <li data-category="security">Memory Forensics</li>
+          <li data-category="security">Reverse Engineering</li>
+          <li data-category="security">Penetration Testing</li>
+          <li data-category="security">CTFs</li>
+          <li data-category="security">Attack &amp; Defense Simulation</li>
+          <li data-category="security">Mobile App Security</li>
+          <li data-category="security">Security Research &amp; Reporting</li>
+          <li data-category="development">Full-Stack Web Development</li>
+          <li data-category="development">Front-End Development</li>
+          <li data-category="development">API Development</li>
+          <li data-category="development">Database Management</li>
+          <li data-category="development">Data Pipelines</li>
+          <li data-category="development">Web Deployment</li>
+        </ul>
+      </div>
+
+      <h3 class="subheading">Tools</h3>
+      <div class="filter-group" data-filter-group>
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="cybersecurity">Cybersecurity</button>
+          <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+          <button class="filter-btn" data-filter="languages">Programming Languages</button>
+          <button class="filter-btn" data-filter="oses">OSes</button>
+          <button class="filter-btn" data-filter="data">Data &amp; AI</button>
+        </div>
+        <ul class="skills">
+          <li data-category="cybersecurity">Wireshark</li>
+          <li data-category="cybersecurity">Ghidra</li>
+          <li data-category="cybersecurity">Metasploit</li>
+          <li data-category="cybersecurity">Nmap</li>
+          <li data-category="cybersecurity">Suricata</li>
+          <li data-category="cybersecurity">Volatility 3</li>
+          <li data-category="cybersecurity">Magnet RAM Capture</li>
+          <li data-category="cybersecurity">SIFT Workstation</li>
+          <li data-category="cybersecurity">Frida</li>
+          <li data-category="cybersecurity">VirusTotal</li>
+          <li data-category="cybersecurity">Malware Bazaar</li>
+          <li data-category="fullstack">Node.js</li>
+          <li data-category="fullstack">MongoDB</li>
+          <li data-category="fullstack">React</li>
+          <li data-category="fullstack">VS Code</li>
+          <li data-category="fullstack">Render</li>
+          <li data-category="fullstack">Git &amp; GitHub</li>
+          <li data-category="languages">Python</li>
+          <li data-category="languages">JavaScript</li>
+          <li data-category="languages">HTML</li>
+          <li data-category="languages">CSS</li>
+          <li data-category="oses">Windows</li>
+          <li data-category="oses">macOS</li>
+          <li data-category="oses">Kali Linux</li>
+          <li data-category="oses">Ubuntu Linux</li>
+          <li data-category="data">Apache Kafka</li>
+          <li data-category="data">Apache Spark</li>
+          <li data-category="data">Hadoop</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         PROJECTS (carousel)
+         Each <article class="slide"> is one project.
+         To add one: copy a whole slide and paste it before the
+         closing </div> of "slides". The dots and arrows update
+         automatically. To remove one: delete its slide.
+         ===================================================== -->
+    <section id="projects" class="view">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-intro">
+        A selection of my cybersecurity research and full-stack development work. Each project
+        links to its GitHub page for the write-up and code.
+      </p>
+
+      <div class="carousel" data-carousel>
+        <div class="slides">
+
+          <article class="slide">
+            <!-- IMAGE: swap the file in the images folder, or edit the src below -->
+            <div class="slide-image"><img src="images/project-differential-privacy.jpg" alt="Privacy-utility trade-off graph from the AI benchmark"></div>
+            <div class="slide-body">
+              <h3>Differential Privacy for Large-Scale Data Mining Using AI</h3>
+              <p class="entry-org">Big Data course project</p>
+              <p>Explored how adding controlled statistical noise protects individuals in large datasets against linkage attacks, drawing on real cases like the Census Bureau reconstruction attack. I built an AI benchmark on the 1994 US Adult Census data that predicts income while injecting Gaussian noise, then charted the trade-off between privacy budget and accuracy. A live pipeline on Hadoop and Spark processed streamed entries and applied the noise in real time.</p>
+              <ul class="tags">
+                <li>Python</li><li>Apache Spark</li><li>Hadoop</li><li>diffprivlib</li><li>Differential Privacy</li>
+              </ul>
+              <div class="slide-links">
+                <!-- First button opens the PDF version of the presentation in a new tab.
+                     UPDATE: replace the GitHub link on the second button with your real repo. -->
+                <a href="presentations/differential-privacy.pdf" class="btn btn-primary" target="_blank" rel="noopener">View the PowerPoint</a>
+                <a href="https://github.com/aarto03/differential-privacy-ai" class="btn btn-ghost" target="_blank" rel="noopener">View on GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="slide">
+            <!-- IMAGE: swap the file in the images folder, or edit the src below -->
+            <div class="slide-image"><img src="images/project-memory-forensics.jpg" alt="Volatility 3 evidence of hidden injected memory regions"></div>
+            <div class="slide-body">
+              <h3>Memory Forensics and Volatile Data Analysis</h3>
+              <p class="entry-org">Computer Forensics course project</p>
+              <p>Staged a fileless malware attack in a lab, where a Kali Linux machine delivered a Meterpreter payload through reflective DLL injection into a Windows 11 virtual machine. I captured the victim's RAM and analyzed it in a SIFT workstation with Volatility 3, where malfind exposed injected, executable memory regions that a standard module listing hid completely. Reviewed current research on why memory-only threats evade traditional detection.</p>
+              <ul class="tags">
+                <li>Volatility 3</li><li>Metasploit</li><li>SIFT Workstation</li><li>Magnet RAM Capture</li><li>Kali Linux</li>
+              </ul>
+              <div class="slide-links">
+                <!-- First button opens the PDF version of the presentation in a new tab.
+                     UPDATE: replace the GitHub link on the second button with your real repo. -->
+                <a href="presentations/memory-forensics.pdf" class="btn btn-primary" target="_blank" rel="noopener">View the PowerPoint</a>
+                <a href="https://github.com/aarto03/memory-forensics-fileless-malware" class="btn btn-ghost" target="_blank" rel="noopener">View on GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="slide">
+            <!-- IMAGE: swap the file in the images folder, or edit the src below -->
+            <div class="slide-image"><img src="images/project-android-security.jpg" alt="Automated security audit output flagging permission abuse"></div>
+            <div class="slide-body">
+              <h3>Real-Time Detection of Malicious Permission Escalation in Android</h3>
+              <p class="entry-org">Wireless &amp; Mobile course project</p>
+              <p>Built a monitoring pipeline that watches what an Android app actually does and compares it to what it declared. Frida hooks track API calls in real time while an extraction script decodes the APK's permissions. A comparison engine then flags permission goldmining and confused deputy attacks, which it caught in a purpose-built test app and rated critical, while a clean app from F-Droid stayed quiet.</p>
+              <ul class="tags">
+                <li>Frida</li><li>Python</li><li>Android Studio</li><li>Mobile Security</li><li>APK Analysis</li>
+              </ul>
+              <div class="slide-links">
+                <!-- First button opens the PDF version of the presentation in a new tab.
+                     UPDATE: replace the GitHub link on the second button with your real repo. -->
+                <a href="presentations/android-permission-escalation.pdf" class="btn btn-primary" target="_blank" rel="noopener">View the PowerPoint</a>
+                <a href="https://github.com/aarto03/android-permission-escalation-detection" class="btn btn-ghost" target="_blank" rel="noopener">View on GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="slide">
+            <!-- IMAGE: swap the file in the images folder, or edit the src below -->
+            <div class="slide-image"><img src="images/championship-rounds-img.jpg" alt="Screenshot of the Championship-Rounds website"></div>
+            <div class="slide-body">
+              <h3>Championship-Rounds</h3>
+              <p class="entry-org">Personal project</p>
+              <p>A full-stack mock betting platform for MMA fight cards. Users use points to choose the results of each fight on a specific card, picking the fighter, round, and method of victory. Their picks are saved on a profile page, where they can create several accounts to compare scores.</p>
+              <ul class="tags">
+                <li>Node.js</li><li>MongoDB</li><li>JavaScript</li><li>Render</li>
+              </ul>
+              <div class="slide-links">
+                <a href="https://championship-rounds.onrender.com/" class="btn btn-primary" target="_blank" rel="noopener">View Website</a>
+                <a href="https://github.com/aarto03/championship-rounds" class="btn btn-ghost" target="_blank" rel="noopener">View on GitHub</a>
+              </div>
+            </div>
+          </article>
+
+
+        </div>
+
+        <!-- Arrows, dots and counter are filled in by script.js -->
+        <div class="carousel-controls">
+          <button class="arrow prev" aria-label="Previous">&#8592;</button>
+          <div class="dots"></div>
+          <span class="counter"></span>
+          <button class="arrow next" aria-label="Next">&#8594;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         CERTIFICATIONS (carousel)
+         Same idea as Projects: copy a slide to add one.
+         ===================================================== -->
+    <section id="certifications" class="view">
+      <h2 class="section-title">Certifications</h2>
+      <p class="section-intro">
+        Verified credentials in programming and cybersecurity fundamentals. Each one links to its official
+        verification page.
+      </p>
+
+      <div class="carousel" data-carousel>
+        <div class="slides">
+
+          <article class="slide">
+            <div class="slide-image"><img src="images/python-cert.jpg" alt="freeCodeCamp Python Developer Certification"></div>
+            <div class="slide-body">
+              <h3>Python Developer Certification</h3>
+              <p class="entry-org">freeCodeCamp</p>
+              <p class="entry-date">Issued: July 25, 2026</p>
+              <p>Covers the full range of core Python, taught through hands-on labs and projects. Topics include automation, recursion, loops, object-oriented programming, and error handling. The certification represents approximately 300 hours of work.</p>
+              <div class="slide-links">
+                <a href="https://www.freecodecamp.org/certification/anthony_artola/python-v9" class="btn btn-primary" target="_blank" rel="noopener">Verify Credential</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="slide">
+            <div class="slide-image"><img src="images/cybersecurity-cert.jpg" alt="Google Foundations of Cybersecurity course certificate"></div>
+            <div class="slide-body">
+              <h3>Foundations of Cybersecurity</h3>
+              <p class="entry-org">Google, offered through Coursera</p>
+              <p class="entry-date">Issued: May 10, 2026</p>
+              <p>An introduction to the core ideas behind security work. Topics include the CIA Triad, common threats, vulnerabilities and risks, and the different forms of defense used to protect people, systems and data.</p>
+              <div class="slide-links">
+                <a href="https://www.coursera.org/account/accomplishments/verify/I4DJRP2T5ZPH" class="btn btn-primary" target="_blank" rel="noopener">Verify Credential</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="carousel-controls">
+          <button class="arrow prev" aria-label="Previous">&#8592;</button>
+          <div class="dots"></div>
+          <span class="counter"></span>
+          <button class="arrow next" aria-label="Next">&#8594;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         CONTACT
+         Replace the placeholder links with your real ones.
+         ===================================================== -->
+    <section id="contact" class="view">
+      <h2 class="section-title">Contact</h2>
+      <p class="section-intro">
+        Interested in working together or just want to talk security?
+        Reach out through any of the links below.
+      </p>
+
+      <ul class="contact-list">
+        <li><span>Email</span><a href="mailto:aartola532@gmail.com">aartola532@gmail.com</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/anthony-artola-530b53273/" target="_blank" rel="noopener">linkedin.com/in/anthony-artola-530b53273</a></li>
+        <li><span>GitHub</span><a href="https://github.com/aarto03" target="_blank" rel="noopener">github.com/aarto03</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    &copy; <span id="year"></span> Anthony Artola. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
